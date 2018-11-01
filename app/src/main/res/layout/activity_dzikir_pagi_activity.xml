@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dzikirPagi_activity"
+    android:background="@drawable/dzikirmorning"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_pagi"
+        android:layout_gravity="center"
+        android:layout_width="267dp"
+        android:layout_height="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:background="@drawable/ic_dzrmorn"
+        android:onClick="dkrPagi"/>
+    
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_senja"
+        android:layout_marginTop="233dp"
+        android:layout_width="267dp"
+        android:layout_height="128dp"
+        android:background="@drawable/ic_dzkrsnja"
+        android:onClick="dkrSenja"
+        />
+
+</LinearLayout>
